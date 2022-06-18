@@ -100,7 +100,7 @@ int main(int argc, char* argv[]) {
                       GST_FORMAT_TIME,
                       GST_SEEK_FLAG_FLUSH,
                       GST_SEEK_TYPE_SET,
-                      1000000000,
+                      0,
                       GST_SEEK_TYPE_NONE,
                       GST_CLOCK_TIME_NONE)) {
                         std::cout << "failed to seek pipeline \n"; 
